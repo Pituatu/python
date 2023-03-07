@@ -6,7 +6,7 @@
 # Estado Civil: 's', 'c', 'v', 'd';
 
 nome = str(input('Digite seu nome: '))
-while len(nome) <= 3:
+while len(nome) < 3:
     nome = str(input('Digite seu nome novamente, com mais de 3 caracteres: '))
 
 idade = int(input('Digite sua idade: '))

@@ -2,4 +2,4 @@
 # uma mensagem de boas vindas.
 
 nome = str(input("Digite o seu nome: "))
-print(f'Seja muito bem vindo, {nome}. ')
+print(f'Seja muito bem vindo, \033[1;31m{nome}\033. ')
