@@ -8,12 +8,12 @@ if jokenpo == 'pedra':
     if x == 1:
         print('O computador jogou pedra também, portanto é um \033[32mempate\033[m. ')
     if x == 2:
-        print('O computador jogou papel, e portanto você \033[31mperdeu\033[m. ')
+        print('O computador jogou papel, portanto você \033[31mperdeu\033[m. ')
     if x == 3:
-        print('O computador jogou tesoura, e portanto você \033[36mganhou\033[m. ')
+        print('O computador jogou tesoura, portanto você \033[36mganhou\033[m. ')
 elif jokenpo == 'papel':
     if x == 1:
-        print('O computador jogou pedra e portanto você \033[34mganhou\033[m. ')
+        print('O computador jogou pedra, portanto você \033[34mganhou\033[m. ')
     if x == 2:
         print('O computador jogou papel também, e portanto é um \033[32mempate\033[m. ')
     if x == 3:

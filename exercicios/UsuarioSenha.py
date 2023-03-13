@@ -3,7 +3,7 @@
 
 usuario = str(input("Digite seu usuário: "))
 senha = str(input("Digite a sua senha: "))
-while usuario==senha:
+while usuario == senha:
     print("Por favor, digite uma senha e um usuário diferente. ")
     usuario = str(input("Digite seu usuário: "))
     senha = str(input("Digite a sua senha: "))
